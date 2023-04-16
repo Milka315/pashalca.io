@@ -1,8 +1,15 @@
+
 body{
     height: 100vh;
     background: url('image\ 2.jpg') no-repeat, center;
     background-size: cover;
     overflow: hidden;
+    background-position: center;
+}
+
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 *{
@@ -26,19 +33,19 @@ h1{
     }
     25%{
         position:relative;
-        top: 400px;
-        left: 900px;
+        top: 40%;
+        left: 60%;
         color: blue ;
     }
     50%{
         position: relative;
-        top: 200px;
-        left: 700px;
+        top: 30%;
+        left: 50%;
     }
     75%{
         position: relative;
-        top: 700px;
-        left: 530px;
+        top: 50%;
+        left: 45%;
         color: coral;
     }
     100%{
@@ -61,20 +68,20 @@ h1{
     }
     25%{
         position:relative;
-        top: 100px;
-        left: 900px;
+        top: 10%;
+        left: 65%;
         color: yellow
     }
     50%{
         position: relative;
-        top: 200px;
-        left: 1200px;
+        top: 20%;
+        left: 80%;
         color: darkviolet;
     }
     75%{
         position: relative;
-        top: 50px;
-        left: 630px;
+        top: 5%;
+        left: 45%;
         color: red
 
     }
@@ -101,7 +108,7 @@ h1{
     50%{
         position: relative;
         
-        left: 1200px;
+        left: 80%;
         color: palegreen;
     }
     
