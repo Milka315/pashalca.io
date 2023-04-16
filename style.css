@@ -1,0 +1,114 @@
+body{
+    height: 100vh;
+    background: url('image\ 2.jpg') no-repeat, center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #fff
+}
+
+.one{
+    animation: one ease infinite 1s;
+}
+
+@keyframes one {
+    0%{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        position:relative;
+        top: 400px;
+        left: 900px;
+        color: blue ;
+    }
+    50%{
+        position: relative;
+        top: 200px;
+        left: 700px;
+    }
+    75%{
+        position: relative;
+        top: 700px;
+        left: 530px;
+        color: coral;
+    }
+    100%{
+        position: relative;
+        top: 0;
+        left: 0;
+        color: deeppink;
+    }
+}
+.two{
+    animation: two ease infinite .5s;
+}
+
+@keyframes two {
+    0%{
+        position: relative;
+        top: 0;
+        left: 0;
+        color: lime;
+    }
+    25%{
+        position:relative;
+        top: 100px;
+        left: 900px;
+        color: yellow
+    }
+    50%{
+        position: relative;
+        top: 200px;
+        left: 1200px;
+        color: darkviolet;
+    }
+    75%{
+        position: relative;
+        top: 50px;
+        left: 630px;
+        color: red
+
+    }
+    100%{
+        position: relative;
+        top: 0;
+        left: 0;
+        color: darkgrey;
+    }
+}
+
+.three{
+    animation: three ease infinite .2s;
+}
+
+@keyframes three {
+    0%{
+        position: relative;
+        top: 0;
+        left: 0;
+        color: green;
+    }
+   
+    50%{
+        position: relative;
+        
+        left: 1200px;
+        color: palegreen;
+    }
+    
+    100%{
+        position: relative;
+        
+        left: 0;
+        color: lightgreen;
+    }
+}
